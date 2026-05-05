@@ -65,7 +65,9 @@ This approach improves analysis by enabling multi-dimensional insights across da
 - Added organ conditions to filter the damaged and healthy organs
 - Designed visuals for clear comparison and storytelling
 <img width="1021" height="625" alt="Damaged  Human" src="https://github.com/user-attachments/assets/08593e7b-dcd3-4eb3-b1bd-4ed3c201d7d5" />
-
+### Tools Used
+- Power BI – Data visualization and dashboard development
+- Power Query – Data cleaning and transformation
 ### Key Measures & Calculations
 #### Average Age Comparison
 vs Avg Age = 
@@ -104,6 +106,8 @@ SWITCH(
     health_dataset[Age] <= 68, "59–68",
     "69+"
 )
+<img width="1020" height="630" alt="Healthy Human" src="https://github.com/user-attachments/assets/bff0ab6a-16a5-4a5a-a5cf-92482530714a" />
+
 ### Key Insights
 - Active smokers are increasingly in high-risk health categories
 - The 29–38 age group shows elevated cholesterol and hypertension risk
