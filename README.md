@@ -64,6 +64,8 @@ This approach improves analysis by enabling multi-dimensional insights across da
  -Built an interactive dashboard in Power BI
 - Added organ conditions to filter the damaged and healthy organs
 - Designed visuals for clear comparison and storytelling
+<img width="1021" height="625" alt="Damaged  Human" src="https://github.com/user-attachments/assets/08593e7b-dcd3-4eb3-b1bd-4ed3c201d7d5" />
+
 ### Key Measures & Calculations
 #### Average Age Comparison
 vs Avg Age = 
