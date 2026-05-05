@@ -61,7 +61,7 @@ This approach improves analysis by enabling multi-dimensional insights across da
 - Analyzed health risks across different groups
 - Evaluated combined effects of smoking, age, and BMI
 #### Dashboard Development
- -Built an interactive dashboard in Power BI
+- Built an interactive dashboard in Power BI
 - Added organ conditions to filter the damaged and healthy organs
 - Designed visuals for clear comparison and storytelling
 <img width="1021" height="625" alt="Damaged  Human" src="https://github.com/user-attachments/assets/08593e7b-dcd3-4eb3-b1bd-4ed3c201d7d5" />
@@ -69,7 +69,8 @@ This approach improves analysis by enabling multi-dimensional insights across da
 - Power BI – Data visualization and dashboard development
 - Power Query – Data cleaning and transformation
 ### Key Measures & Calculations
-#### Average Age Comparison
+
+#### 1.Average Age Comparison
 vs Avg Age = 
 VAR _CurrentAge = AVERAGE(health_dataset[Age])
 VAR _OverallAge = CALCULATE(AVERAGE(health_dataset[Age]), ALL(health_dataset))
@@ -82,7 +83,7 @@ SWITCH(
     _Diff < 0, UNICHAR(9660) & " " & FORMAT(_CurrentAge, "0.0"),
     FORMAT(_CurrentAge, "0.0")
 )
-#### Average BMI Comparison
+#### 2.Average BMI Comparison
 vs Avg BMI = 
 VAR _CurrentBMI = AVERAGE(health_dataset[BMI])
 VAR _OverallBMI = CALCULATE(AVERAGE(health_dataset[BMI]), ALL(health_dataset))
@@ -95,7 +96,7 @@ SWITCH(
     _Diff < 0, UNICHAR(9660) & " " & FORMAT(_CurrentBMI, "0.0"),
     FORMAT(_CurrentBMI, "0.0")
 )
-#### Age Group Column
+#### 3.Age Group Column
 Age Group = 
 SWITCH(
     TRUE(),
