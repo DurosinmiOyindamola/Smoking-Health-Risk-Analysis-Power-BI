@@ -65,11 +65,12 @@ This approach improves analysis by enabling multi-dimensional insights across da
 - Added organ conditions to filter the damaged and healthy organs
 - Designed visuals for clear comparison and storytelling
 <img width="1021" height="625" alt="Damaged  Human" src="https://github.com/user-attachments/assets/08593e7b-dcd3-4eb3-b1bd-4ed3c201d7d5" />
+
 ### Tools Used
 - Power BI – Data visualization and dashboard development
 - Power Query – Data cleaning and transformation
-### Key Measures & Calculations
 
+### Key Measures & Calculations
 #### 1.Average Age Comparison
 vs Avg Age = 
 VAR _CurrentAge = AVERAGE(health_dataset[Age])
